@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/longxing/CLionProjects/ICPC/Dijkstra-old.cpp
+iostream
+-
+cstring
+-
+cstdio
+-
+cstdlib
+-
+
