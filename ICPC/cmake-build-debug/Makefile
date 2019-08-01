@@ -123,32 +123,32 @@ ICPC/fast:
 	$(MAKE) -f CMakeFiles/ICPC.dir/build.make CMakeFiles/ICPC.dir/build
 .PHONY : ICPC/fast
 
-Dijkstra-old.o: Dijkstra-old.cpp.o
+电影节.o: 电影节.cpp.o
 
-.PHONY : Dijkstra-old.o
+.PHONY : 电影节.o
 
 # target to build an object file
-Dijkstra-old.cpp.o:
-	$(MAKE) -f CMakeFiles/ICPC.dir/build.make CMakeFiles/ICPC.dir/Dijkstra-old.cpp.o
-.PHONY : Dijkstra-old.cpp.o
+电影节.cpp.o:
+	$(MAKE) -f CMakeFiles/ICPC.dir/build.make CMakeFiles/ICPC.dir/电影节.cpp.o
+.PHONY : 电影节.cpp.o
 
-Dijkstra-old.i: Dijkstra-old.cpp.i
+电影节.i: 电影节.cpp.i
 
-.PHONY : Dijkstra-old.i
+.PHONY : 电影节.i
 
 # target to preprocess a source file
-Dijkstra-old.cpp.i:
-	$(MAKE) -f CMakeFiles/ICPC.dir/build.make CMakeFiles/ICPC.dir/Dijkstra-old.cpp.i
-.PHONY : Dijkstra-old.cpp.i
+电影节.cpp.i:
+	$(MAKE) -f CMakeFiles/ICPC.dir/build.make CMakeFiles/ICPC.dir/电影节.cpp.i
+.PHONY : 电影节.cpp.i
 
-Dijkstra-old.s: Dijkstra-old.cpp.s
+电影节.s: 电影节.cpp.s
 
-.PHONY : Dijkstra-old.s
+.PHONY : 电影节.s
 
 # target to generate assembly for a file
-Dijkstra-old.cpp.s:
-	$(MAKE) -f CMakeFiles/ICPC.dir/build.make CMakeFiles/ICPC.dir/Dijkstra-old.cpp.s
-.PHONY : Dijkstra-old.cpp.s
+电影节.cpp.s:
+	$(MAKE) -f CMakeFiles/ICPC.dir/build.make CMakeFiles/ICPC.dir/电影节.cpp.s
+.PHONY : 电影节.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ICPC"
-	@echo "... Dijkstra-old.o"
-	@echo "... Dijkstra-old.i"
-	@echo "... Dijkstra-old.s"
+	@echo "... 电影节.o"
+	@echo "... 电影节.i"
+	@echo "... 电影节.s"
 .PHONY : help
 
 

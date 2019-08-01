@@ -3,5 +3,5 @@ project(ICPC)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES Dijkstra-old.cpp)
+set(SOURCE_FILES    电影节.cpp)
 add_executable(ICPC ${SOURCE_FILES})

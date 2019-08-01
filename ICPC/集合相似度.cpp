@@ -4,62 +4,37 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+set<int> U[55];
+void Same(int a, int b){
+    int same = 0, sum =0;
+//    set::iterator it;
+    set<int>::iterator it;
+    for (it = U[a].begin(); it != U[a].end() ; *it++) {
+        //if(U[b].find(*it) != U[b].end()) same++;
+        if(U[b].count(*it)) same++;
+    }
+    sum = U[a].size() + U[b].size();
+    sum -= same;
+   // cout << same *1.00 / sum* 100 << "%" <<endl;
+    printf("%.2f\%\n",same *1.00 / sum* 100);
+}
 int main(){
-    int a[55][2010];
-    int Set[55];
-    int n;
-    scanf("%d",&n);
+    int a, b, n;
+    cin >> n;
     for (int i = 1; i <= n ; ++i) {
-        int k;
-        scanf("%d",&k);
+        int  k;
+        cin >> k;
         for (int j = 0; j < k; ++j) {
-              scanf("%d",&a[i][j]);
-              Set[i] = k;
+            int x;
+            scanf("%d", &x);
+            U[i].insert(x);
         }
     }
-    int m;
-    cin >> m;
-    while(m--){
-        int x1,x2;
-        cin >> x1 >> x2;
-        float cnt = 0;
-        for (int i = 1; i <= Set[x2] ; ++i) {
-            for (int j = 0; j < Set[x1] ; ++j) {
-                 if(a[x1][i] == a[x2][j])
-                     cnt++;
-            }
-        }
-        cout<< cnt / Set[x2] * 100.0 <<"%"<<endl;
+    int k;
+    cin >> k;
+    while(k--){
+        cin >> a >> b;
+        Same(a, b);
     }
     return 0;
 }
-//int main(){
-////    int a[55][2010];
-//    set<int> q[55];
-//    int n;
-//    scanf("%d",&n);
-//    for (int j = 1; j <= n; ++j) {
-//        int k;
-//        scanf("%d",&k);
-//        int x;
-//        for (int i = 0; i < k; ++i) {
-//            scanf("%d",&x);
-//            q[i].insert(x);
-//
-//        }
-//    }
-//    int m;
-//    scanf("%d", &m);
-//    while(m--){
-//        float  fz,fm;
-//        int x1, x2;
-//        cin >> x1 >> x2;
-//        cout << q[x1].size() << "  " <<q[x2].size()<<endl;
-////        for (int i = 0; i < q[x1].size(); ++i) {
-////            for (int j = 0; j < q[x2].size(); ++j) {
-////
-////            }
-////        }
-// }
-//    return  0;
-//}

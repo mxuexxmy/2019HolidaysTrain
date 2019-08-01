@@ -57,38 +57,38 @@ include CMakeFiles/ICPC.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ICPC.dir/flags.make
 
-CMakeFiles/ICPC.dir/Dijkstra-old.cpp.o: CMakeFiles/ICPC.dir/flags.make
-CMakeFiles/ICPC.dir/Dijkstra-old.cpp.o: ../Dijkstra-old.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/CLionProjects/ICPC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ICPC.dir/Dijkstra-old.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ICPC.dir/Dijkstra-old.cpp.o -c /home/longxing/CLionProjects/ICPC/Dijkstra-old.cpp
+CMakeFiles/ICPC.dir/电影节.cpp.o: CMakeFiles/ICPC.dir/flags.make
+CMakeFiles/ICPC.dir/电影节.cpp.o: ../电影节.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longxing/CLionProjects/ICPC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ICPC.dir/电影节.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ICPC.dir/电影节.cpp.o -c /home/longxing/CLionProjects/ICPC/电影节.cpp
 
-CMakeFiles/ICPC.dir/Dijkstra-old.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ICPC.dir/Dijkstra-old.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/CLionProjects/ICPC/Dijkstra-old.cpp > CMakeFiles/ICPC.dir/Dijkstra-old.cpp.i
+CMakeFiles/ICPC.dir/电影节.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ICPC.dir/电影节.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longxing/CLionProjects/ICPC/电影节.cpp > CMakeFiles/ICPC.dir/电影节.cpp.i
 
-CMakeFiles/ICPC.dir/Dijkstra-old.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ICPC.dir/Dijkstra-old.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/CLionProjects/ICPC/Dijkstra-old.cpp -o CMakeFiles/ICPC.dir/Dijkstra-old.cpp.s
+CMakeFiles/ICPC.dir/电影节.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ICPC.dir/电影节.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longxing/CLionProjects/ICPC/电影节.cpp -o CMakeFiles/ICPC.dir/电影节.cpp.s
 
-CMakeFiles/ICPC.dir/Dijkstra-old.cpp.o.requires:
+CMakeFiles/ICPC.dir/电影节.cpp.o.requires:
 
-.PHONY : CMakeFiles/ICPC.dir/Dijkstra-old.cpp.o.requires
+.PHONY : CMakeFiles/ICPC.dir/电影节.cpp.o.requires
 
-CMakeFiles/ICPC.dir/Dijkstra-old.cpp.o.provides: CMakeFiles/ICPC.dir/Dijkstra-old.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ICPC.dir/build.make CMakeFiles/ICPC.dir/Dijkstra-old.cpp.o.provides.build
-.PHONY : CMakeFiles/ICPC.dir/Dijkstra-old.cpp.o.provides
+CMakeFiles/ICPC.dir/电影节.cpp.o.provides: CMakeFiles/ICPC.dir/电影节.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ICPC.dir/build.make CMakeFiles/ICPC.dir/电影节.cpp.o.provides.build
+.PHONY : CMakeFiles/ICPC.dir/电影节.cpp.o.provides
 
-CMakeFiles/ICPC.dir/Dijkstra-old.cpp.o.provides.build: CMakeFiles/ICPC.dir/Dijkstra-old.cpp.o
+CMakeFiles/ICPC.dir/电影节.cpp.o.provides.build: CMakeFiles/ICPC.dir/电影节.cpp.o
 
 
 # Object files for target ICPC
 ICPC_OBJECTS = \
-"CMakeFiles/ICPC.dir/Dijkstra-old.cpp.o"
+"CMakeFiles/ICPC.dir/电影节.cpp.o"
 
 # External object files for target ICPC
 ICPC_EXTERNAL_OBJECTS =
 
-ICPC: CMakeFiles/ICPC.dir/Dijkstra-old.cpp.o
+ICPC: CMakeFiles/ICPC.dir/电影节.cpp.o
 ICPC: CMakeFiles/ICPC.dir/build.make
 ICPC: CMakeFiles/ICPC.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/longxing/CLionProjects/ICPC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ICPC"
@@ -99,7 +99,7 @@ CMakeFiles/ICPC.dir/build: ICPC
 
 .PHONY : CMakeFiles/ICPC.dir/build
 
-CMakeFiles/ICPC.dir/requires: CMakeFiles/ICPC.dir/Dijkstra-old.cpp.o.requires
+CMakeFiles/ICPC.dir/requires: CMakeFiles/ICPC.dir/电影节.cpp.o.requires
 
 .PHONY : CMakeFiles/ICPC.dir/requires
 

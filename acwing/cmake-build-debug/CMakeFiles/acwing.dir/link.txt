@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/acwing.dir/移位运算的验证.cpp.o  -o acwing 

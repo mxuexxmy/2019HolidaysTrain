@@ -6,13 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/longxing/CLionProjects/ICPC/Dijkstra-old.cpp
-iostream
--
-cstring
--
-cstdio
--
-cstdlib
+/home/longxing/CLionProjects/ICPC/电影节.cpp
+bits/stdc++.h
 -
 
