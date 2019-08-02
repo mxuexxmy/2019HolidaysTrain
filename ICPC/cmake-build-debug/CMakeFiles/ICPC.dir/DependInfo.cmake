@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/longxing/CLionProjects/ICPC/电影节.cpp" "/home/longxing/CLionProjects/ICPC/cmake-build-debug/CMakeFiles/ICPC.dir/电影节.cpp.o"
+  "/home/longxing/CLionProjects/ICPC/天梯赛座位分配.cpp" "/home/longxing/CLionProjects/ICPC/cmake-build-debug/CMakeFiles/ICPC.dir/天梯赛座位分配.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

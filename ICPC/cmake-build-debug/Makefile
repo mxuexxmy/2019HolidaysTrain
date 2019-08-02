@@ -123,32 +123,32 @@ ICPC/fast:
 	$(MAKE) -f CMakeFiles/ICPC.dir/build.make CMakeFiles/ICPC.dir/build
 .PHONY : ICPC/fast
 
-电影节.o: 电影节.cpp.o
+天梯赛座位分配.o: 天梯赛座位分配.cpp.o
 
-.PHONY : 电影节.o
+.PHONY : 天梯赛座位分配.o
 
 # target to build an object file
-电影节.cpp.o:
-	$(MAKE) -f CMakeFiles/ICPC.dir/build.make CMakeFiles/ICPC.dir/电影节.cpp.o
-.PHONY : 电影节.cpp.o
+天梯赛座位分配.cpp.o:
+	$(MAKE) -f CMakeFiles/ICPC.dir/build.make CMakeFiles/ICPC.dir/天梯赛座位分配.cpp.o
+.PHONY : 天梯赛座位分配.cpp.o
 
-电影节.i: 电影节.cpp.i
+天梯赛座位分配.i: 天梯赛座位分配.cpp.i
 
-.PHONY : 电影节.i
+.PHONY : 天梯赛座位分配.i
 
 # target to preprocess a source file
-电影节.cpp.i:
-	$(MAKE) -f CMakeFiles/ICPC.dir/build.make CMakeFiles/ICPC.dir/电影节.cpp.i
-.PHONY : 电影节.cpp.i
+天梯赛座位分配.cpp.i:
+	$(MAKE) -f CMakeFiles/ICPC.dir/build.make CMakeFiles/ICPC.dir/天梯赛座位分配.cpp.i
+.PHONY : 天梯赛座位分配.cpp.i
 
-电影节.s: 电影节.cpp.s
+天梯赛座位分配.s: 天梯赛座位分配.cpp.s
 
-.PHONY : 电影节.s
+.PHONY : 天梯赛座位分配.s
 
 # target to generate assembly for a file
-电影节.cpp.s:
-	$(MAKE) -f CMakeFiles/ICPC.dir/build.make CMakeFiles/ICPC.dir/电影节.cpp.s
-.PHONY : 电影节.cpp.s
+天梯赛座位分配.cpp.s:
+	$(MAKE) -f CMakeFiles/ICPC.dir/build.make CMakeFiles/ICPC.dir/天梯赛座位分配.cpp.s
+.PHONY : 天梯赛座位分配.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ICPC"
-	@echo "... 电影节.o"
-	@echo "... 电影节.i"
-	@echo "... 电影节.s"
+	@echo "... 天梯赛座位分配.o"
+	@echo "... 天梯赛座位分配.i"
+	@echo "... 天梯赛座位分配.s"
 .PHONY : help
 
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ICPC.dir/电影节.cpp.o"
+  "CMakeFiles/ICPC.dir/天梯赛座位分配.cpp.o"
   "ICPC.pdb"
   "ICPC"
 )

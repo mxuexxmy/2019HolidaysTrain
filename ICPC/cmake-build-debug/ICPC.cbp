@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/longxing/CLionProjects/ICPC/电影节.cpp">
+		<Unit filename="/home/longxing/CLionProjects/ICPC/天梯赛座位分配.cpp">
 			<Option target="ICPC"/>
 		</Unit>
 		<Unit filename="/home/longxing/CLionProjects/ICPC/CMakeLists.txt">
