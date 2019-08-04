@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/20190804_Test.dir/7-2_A_Good_Game.cpp.o  -o 20190804_Test 

@@ -1,0 +1,3 @@
+/home/longxing/CLionProjects/20190804-Test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/longxing/CLionProjects/20190804-Test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/longxing/CLionProjects/20190804-Test/cmake-build-debug/CMakeFiles/20190804_Test.dir
