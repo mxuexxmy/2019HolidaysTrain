@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/20190808_review.dir/7-1_天梯赛座位分配.cpp.o  -o 20190808_review 
